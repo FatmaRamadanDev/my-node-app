@@ -1,0 +1,31 @@
+{
+  "type": "module",
+  "name": "awarex",
+  "version": "1.0.0",
+  "description": "This branch contains the **Back-end** implementation built with **Node.js**.\r It handles server-side logic, APIs, and database communication.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1Fathy1/AwarX.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  
+  "bugs": {
+    "url": "https://github.com/1Fathy1/AwarX/issues"
+  },
+  "homepage": "https://github.com/1Fathy1/AwarX#readme",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mysql2": "^3.18.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
